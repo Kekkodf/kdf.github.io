@@ -1,3 +1,52 @@
-tt {
-    font-family: "Lucida Console", "Menlo", "Monaco", "Courier", monospace;
-  }
+body{
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 5;
+    padding: 0;
+}
+h1{
+    color: #398832;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: none;
+    text-decoration: none;
+    background-color: #000;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 5;
+}
+p{
+    color: #fff;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: left;
+    text-decoration: none;
+    background-color: #000;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 5;
+}
+a{
+    color: #398832;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: left;
+    text-decoration: none;
+    background-color: #000;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 0;
+}
+nav{
+    background-color: #000;
+    border: 0px solid #000;
+    padding: 50px;
+    margin: 0;
+}
