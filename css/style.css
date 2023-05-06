@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+html {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    margin-top: 30px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #121212;
+    color: snow;
+}
+section {
+    display: grid;
+    min-height: 85vh;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 2.25rem;
+    text-align: center;
+}
+h2 {
+    font-size: 1.75rem;
+    text-align: center;
+}
+p {
+    font-size: 1.25rem;
+    text-align: center;
+}
+ul {
+    font-size: 1.25rem;
+    grid: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-right .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+@media(prefers-reduced-motion){
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+}
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+.logos {
+    display: flex;
+}
+.logo:nth-child(2) {
+    transition-delay: 200ms;
+}
+.logo:nth-child(3) {
+    transition-delay: 400ms;
+}
+.logo:nth-child(4) {
+    transition-delay: 600ms;
+}
+.logo:nth-child(5) {
+    transition-delay: 800ms;
+}
+
+.logo {
+    background-color: #121212;
+    margin: 0 0.5rem;
+    border-radius: 20px;
+    padding: 1rem;
+}
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0.5rem;
+    border-radius: 20px;
+    padding: 1rem;
+    background-color: #121212;
+}
+.project:nth-child(1) {
+    transition-delay: 200ms;
+}
+.project:nth-child(2) {
+    transition-delay: 400ms;
+}
+.project:nth-child(3) {
+    transition-delay: 600ms;
+}
