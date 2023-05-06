@@ -12,55 +12,95 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/font-awesome.min.css">
     <!-- javascript -->
     <script defer src="js/main.js"></script>
+    <script defer src="js/typed.js"></script>
 </head>
 <body>
     
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="sidenav">
         <a href="#Home">Home</a>
         <a href="#About">About me</a>
         <a href="#Experience">Experience</a>
         <a href="#Skills">Skills</a>
         <a href="#Projects">Projects</a>
-        <a href="#Contact">Contact me</a>
+        <a href="#Contact">Contact</a>
     </div>
 
     <div id="main">
-        <span style="font-size:30px;cursor:pointer;position: fixed; right:25px;" onclick="openNav()">&#9776;</span>
     <section id="Home">
-        <h1 class="hidden">My Personal Web Page</h1>
+        <h1>Francesco L. De Faveri Web Portfolio</h1>
         <p class="hidden">
-            Hi, I'm Francesco L. De Faveri, and this is my personal web page.<br>
+            
         </p>
         <img class="hidden" src="img/kdf.jpeg" class="img-fluid" alt="" srcset="">
-    </section>
-
-    <section  id="About" class="hidden">
-        <h1>About me</h1>
-        <p>
-            I'm a 24 years old student, currently attending the master degree in Cybersecurity at the University of Padua.<br>
-            I've studied Mathematics during my batchelor degree, and I've always been interested in Computer Science.<br>
-            I'm a curious person, and I like to learn new things. I'm also a problem solver, and I like to work in team.<br>
-            I'm a fast learner, and I like to work in a dynamic environment.
-        </p>
-        <p>
-            <i>"Don't take life too seriously, you'll never get out of it alive."</i><br><br>
+        <br>
+        <p class="hidden">
+            Hi, I'm Francesco L. De Faveri, @kdf_7, and this is my personal web page.<br>
+            My way of life is based on the following quote:<br>
+                <br>
+                <i>"Don't take life too seriously, you'll never get out of it alive."</i><br><br>
                 <i>Bugs Bunny</i>
         </p>
     </section>
 
+    <section  id="About" class="hidden">
+        <h1 class="hidden">About me</h1>
+        <p class="hidden">
+            I'm a 24 years old student, currently attending the master degree in Cybersecurity at the University of Padua.<br>
+            I've studied Mathematics during my batchelor degree, and I've always been interested in Computer Science.<br>
+            I'm a curious person, and I like to learn new things. I'm also a problem solver, and I like to work in team.<br>
+            I'm a fast learner, and I like to work in a dynamic environment.<br>
+            I'm interested in:
+            <ul>
+              <li class="hidden">Cybersecurity</li>  
+              <li class="hidden">Differential Privacy</li>
+              <li class="hidden">Social Network Analysis</li>
+              <li class="hidden">Machine & Deep Learning</li>
+            </ul>
+        </p>
+    </section>
+
     <section id="Experience" class="hidden">
-        <h1>Experience</h1>
-        <ul>
-            <li>To Do</li>
-            <li>To DO</li>
-            <li>To Do</li>
-        </ul>
+        <h1>My Experience</h1>
+        <div class="project hidden">
+            <h2>Centro Riferimento Oncologico (CRO) in Aviano
+                <br>
+                <tt style="font-size: medium;">11/04/2023-31/07/2023</tt>
+            </h2>
+            <p>
+                For my master thesis, I've worked as an intern at the CRO in Aviano, Italy.<br>
+                I've studied the problem of differential privacy in the context of e-health data, and 
+            </p>
+        </div>
+        <div class="project hidden">
+            <h2>Cyber Challenge 2023
+                <br>
+                <tt style="font-size: medium;">28/02/2023-31/05/2023</tt>
+            </h2>
+            <p>
+                While studing at the University of Padova, I've participated to the Cyber Challenge 2023.
+                <br>
+                The Cyber Challenge is a competition where students have to solve a series of challenges related to cybersecurity.
+                <br>
+                I've been part of the team of University of Padua and I really enjoyed the experience.
+            </p>
+        </div>
+        <div class="project hidden">
+            <h2>Tutor at the University of Padua
+                <br>
+                <tt style="font-size: 16px;">01/10/2022-31/08/2023</tt>
+            </h2>
+            <p>
+                While studing at the University of Padova, I've been a tutor of the courses of Biometrics and Stochastic Processes.<br>
+                For the course of Biometrics, I've developed two notebooks in Python, one related to face recognition and one about gait analysis.<br>
+                For the course of Stochastic Processes, I've covered the exercises regarding Markov Chains, Poisson Processes and Renewal Processes.<br>
+            </p>
+        </div>
+        
     </section>
 
     <section id="Skills" class="hidden">
         <h1>My Skills</h1>
-        <p>During my batchelor and master degree, I've studied Mathemathics and Cybersecurity.<br>
+        <p class="hidden">During my batchelor and master degree, I've studied Mathemathics and Cybersecurity.<br>
            I like to study and learn new things. I usually code using Microsoft Visual Studio Code,<br>
            and I've used the following programming languages during my career as student:
 
@@ -109,7 +149,7 @@
                 </a>
             </div>
         </div>
-        <p>
+        <p class="hidden">
             I've also used the following software:
             <ul>
                 <li class="hidden">Overleaf, LaTeX editor Online</li>
@@ -124,7 +164,7 @@
 
     <section id="Projects" class="hidden">
         <h1>My Projects</h1>
-        <p>
+        <p class="hidden">
             During my career as student, I've worked on some projects. Here are listed some of them:
         </p>
         <div>
@@ -186,7 +226,7 @@
 
     <section id="Contact" class="hidden">
         <h1>Contact me</h1>
-        <p>
+        <p class="hidden">
             If you want to contact me, you can use the following links:
         </p>
         <div class="logos">
