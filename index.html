@@ -16,7 +16,8 @@
 </head>
 <body>
     
-    <div class="sidenav">
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <a href="#Home">Home</a>
         <a href="#About">About me</a>
         <a href="#Experience">Experience</a>
@@ -26,6 +27,7 @@
     </div>
 
     <div id="main">
+        <button class="openbtn" onclick="openNav()">&#9776;</button>
     <section id="Home">
         <h1>Francesco L. De Faveri Web Portfolio</h1>
         <p class="hidden">
