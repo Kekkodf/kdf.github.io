@@ -30,6 +30,9 @@ p {
     font-size: 1.25rem;
     text-align: center;
 }
+a {
+    color: snow;
+}
 ul {
     font-size: 1.25rem;
     grid: flex;
